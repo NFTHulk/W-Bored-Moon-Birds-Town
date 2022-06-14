@@ -58,7 +58,7 @@
   border-radius: 47px;
   background-color: transparent;
   background-image: linear-gradient(261deg, #e7775b, #ffd500);
-  color: #000;
+  color: #ffffff;
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 600;
@@ -68,13 +68,14 @@
 .button.mobile_hide {
   display: block;
   border-radius: 5px;
-  background-image: linear-gradient(261deg, #e7775b, #ffd500);
+  background-image: linear-gradient(261deg, #272c7d, #15154c);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .button.mobile_hide:hover {
-  background-image: linear-gradient(158deg, #ffd500 100%, #e7775b);
+  background-image: linear-gradient(158deg, #5252ff 100%, #e7775b);
+
 }
 
 .button.mobile_hide.mint {
@@ -113,7 +114,7 @@
   padding: 1.25em;
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
-  color: #848484;
+  color: #d7f0d3;
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 500;
@@ -121,11 +122,11 @@
 }
 
 .nav__link:hover {
-  color: #ffd500;
+  color: #5252ff;
 }
 
 .nav__link.w--current {
-  color: #ffd500;
+  color: #efb615;
   font-weight: 700;
 }
 
@@ -279,10 +280,10 @@
   bottom: 0%;
   width: 100%;
   height: 100%;
-  background-color: rgba(36, 36, 36, 0.19);
-  background-image: url("https://global-uploads.webflow.com/61dda9c0cf3a825ec9187663/620c5923be1cdc1ad9d7b273_banner__shade.png");
+  background-image: url("../images/background/1.png");
   background-position: 50% 50%;
   background-size: cover;
+  z-index: -999;
 }
 
 .showcase-slider-wrapper {
@@ -441,7 +442,7 @@
   margin-bottom: 0.2em;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #fff;
+  color: #d7f0d3;
   font-size: 3.12em;
   line-height: 1.01em;
   font-weight: 800;
@@ -485,7 +486,7 @@
   padding-top: 70px;
   padding-bottom: 30px;
   background-color: #000;
-  background-image: url("https://global-uploads.webflow.com/61dda9c0cf3a825ec9187663/620dde64a7423444500d99d3_ShowcaseBG.jpg");
+  background-image: url("../images/background/2.png");
   background-position: 50% 0%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -555,7 +556,7 @@
   padding-top: 15px;
   padding-right: 0em;
   padding-bottom: 0px;
-  background-image: linear-gradient(317deg, #d01bb6, #fed202);
+  background-image: linear-gradient(317deg, #d7f0d3, #d7f0d3);
   font-family: Poppins, sans-serif;
   font-size: 16px;
   line-height: 1.83em;
@@ -567,7 +568,7 @@
 }
 
 .para-main.up {
-  background-image: linear-gradient(164deg, #d01bb6, #fed202);
+  background-image: linear-gradient(164deg, #ffffff, #ffffff);
 }
 
 .para-main.mw-80 {
@@ -784,7 +785,7 @@
 }
 
 .text-btn {
-  color: #000;
+  color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -826,14 +827,14 @@
   -ms-flex-align: center;
   align-items: center;
   border-radius: 5px;
-  background-image: linear-gradient(261deg, #e7775b, #ffd500);
+  background-image: linear-gradient(261deg, #272c7d, #15154c);
   -webkit-transition: all 650ms ease;
   transition: all 650ms ease;
   text-decoration: none;
 }
 
 .twitter:hover {
-  background-image: linear-gradient(158deg, #ffd500 100%, #e7775b);
+  background-image: linear-gradient(158deg, #5252ff 100%, #252977);
 }
 
 .vision-grid {
@@ -903,7 +904,7 @@
   margin-top: 0px;
   margin-bottom: 0.2em;
   padding-bottom: 10px;
-  background-image: linear-gradient(281deg, #e7775b, #ffd500);
+  background-image: linear-gradient(281deg, #efb615, #efb615);
   font-family: Poppins, sans-serif;
   color: #fff;
   font-size: 3.12em;
@@ -915,14 +916,14 @@
 }
 
 .heading-secondary.rm {
-  background-image: linear-gradient(313deg, #ffd500, #ce45b0);
+  background-image: linear-gradient(313deg, #efb615, #efb615);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .heading-secondary.hrt {
-  background-image: radial-gradient(circle farthest-corner at 0% 50%, #ce45b0, #ffd500);
+  background-image: radial-gradient(circle farthest-corner at 0% 50%, #efb615, #ffd500);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1111,13 +1112,46 @@
 }
 
 .heading-43 {
-  margin-top: 0px;
+  margin-top: 24px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   color: #fff;
   font-size: 3.12em;
   line-height: 1.01em;
   font-weight: 800;
+  margin-left: -75px;
+}
+
+.heading-44 {
+  margin-top: 41px;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 3.12em;
+  line-height: 1.01em;
+  font-weight: 800;
+  margin-left: -75px;
+}
+
+.heading-45 {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 3.12em;
+  line-height: 1.01em;
+  font-weight: 800;
+  margin-left: -45px;
+}
+.heading-46 {
+  margin-top: 13px;
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 3.12em;
+  line-height: 1.01em;
+  font-weight: 800;
+  margin-left: -70px;
 }
 
 .paragraph-91 {
@@ -1127,6 +1161,7 @@
   font-size: 1em;
   line-height: 1.56em;
   font-weight: 400;
+  margin-right: 23px;
 }
 
 .map__image {
@@ -1239,8 +1274,8 @@
 
 .road__right__card._4 {
   width: 70%;
-  margin-top: -87px;
-  margin-right: -192px;
+  margin-top: -47px;
+  margin-right: -102px;
   margin-left: -6.4em;
 }
 
@@ -1281,8 +1316,8 @@
   padding-top: 100px;
   padding-bottom: 8em;
   background-color: #000;
-  background-image: url("https://global-uploads.webflow.com/61dda9c0cf3a825ec9187663/620c5a62c150feab2ef2cc53_Frame%202%20(2).png"), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
-  background-image: url("https://global-uploads.webflow.com/61dda9c0cf3a825ec9187663/620c5a62c150feab2ef2cc53_Frame%202%20(2).png"), linear-gradient(180deg, #000, #fff);
+  background-image: url("../images/background/3.png"), -webkit-gradient(linear, left top, left bottom, from(#000), to(#fff));
+  background-image: url("../images/background/3.png"), linear-gradient(180deg, #000, #fff);
   background-position: 50% 50%, 0px 0px;
   background-size: cover, auto;
   background-repeat: repeat, repeat;
@@ -1374,7 +1409,7 @@
 }
 
 .heading-gradiant {
-  background-image: linear-gradient(96deg, #e7775b, #ffd500);
+  background-image: linear-gradient(96deg, #efb615, #ffd500);
   font-size: 28px;
   -webkit-background-clip: text;
   background-clip: text;
@@ -1604,21 +1639,21 @@
   align-items: center;
   border-radius: 5px;
   background-color: #726c6c;
-  background-image: linear-gradient(261deg, #e7775b, #ffd500);
+  background-image: linear-gradient(261deg, #272c7d, #15154c);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   text-decoration: none;
 }
 
 .btn__discord:hover {
-  background-image: linear-gradient(158deg, #ffd500 100%, #e7775b);
+  background-image: linear-gradient(158deg, #5252ff 100%, #252977);
 }
 
 .paragraph {
   margin-bottom: 0px;
   padding-left: 0px;
   font-family: Poppins, sans-serif;
-  color: #000;
+  color: #ffffff;
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 600;
@@ -1702,7 +1737,7 @@
 }
 
 .text-span {
-  background-image: url("https://global-uploads.webflow.com/61dda9c0cf3a825ec9187663/620c5aa1eb35c63000794264_Satoshi%20Runner.png");
+  background-image: url("../images/logo/2.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1821,7 +1856,7 @@
 }
 
 .founder-tb {
-  color: #ce45b0;
+  color: #d7f0d3;
   font-size: 18px;
 }
 
@@ -1884,7 +1919,7 @@
 
 .hero-minting {
   position: relative;
-  display: none;
+  display: block;
   height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1893,7 +1928,7 @@
   flex-direction: column;
   background-image: none;
   background-size: auto;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 .hero-minting.show {
@@ -3801,4 +3836,57 @@
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
+}
+
+.container-timer {
+  margin-top: 200px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 999;
+  opacity: 100%;
+}
+.countdown {
+  z-index: 999;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #ffffff;
+}
+.hour,
+.minutes,
+.seconds,
+.day{
+  font-size: 3rem;
+}
+
+.miliSeconds {
+  font-size: 2rem;
+  margin-top: 31px;
+}
+
+.timer-mergin{
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .container-timer{
+    margin-top: 30px;
+  }
+  .hour,
+  .minutes,
+  .seconds,
+  .day{
+    font-size: 2rem;
+  }
+  .timer-name{
+    line-height: 15px;
+    font-size: 1.2rem;
+  }
+  .timer-mergin{
+    margin-right: 5px;
+  }
 }
