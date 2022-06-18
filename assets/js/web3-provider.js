@@ -239,10 +239,26 @@ function minus() {
     }
 }
 
-function plusTen() {
+function addFive() {
+    let quantity = parseInt(document.getElementById('quantity').value)
+    if (quantity < 16) {
+        quantity = parseInt(quantity + 5)
+        document.getElementById('quantity').value = quantity
+    }
+}
+
+function addTen() {
     let quantity = parseInt(document.getElementById('quantity').value)
     if (quantity < 11) {
         quantity = parseInt(quantity + 10)
+        document.getElementById('quantity').value = quantity
+    }
+}
+
+function addTwenty() {
+    let quantity = parseInt(document.getElementById('quantity').value)
+    if (quantity < 6) {
+        quantity = parseInt(quantity + 15)
         document.getElementById('quantity').value = quantity
     }
 }

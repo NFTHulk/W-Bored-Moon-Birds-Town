@@ -90,7 +90,7 @@
          data-video-urls="https://global-uploads.webflow.com/61f48620f009b7265a244d84/61f4867e28293a1b2bd0b401_banner-video-poster-00001.jpg,https://global-uploads.webflow.com/61f48620f009b7265a244d84/61f4867e28293a1b2bd0b401_banner-video-transcode.mp4,https://global-uploads.webflow.com/61f48620f009b7265a244d84/61f4867e28293a1b2bd0b401_banner-video-transcode.webm"
          data-autoplay="true" data-loop="true" data-wf-ignore="true"
          class="background-video w-background-video w-background-video-atom">
-        <div class="mint-wrapper" style="display: none;">
+        <div class="mint-wrapper">
             <div class="mint-box">
                 <div class="w-layout-grid mint-top-info">
                     <div id="w-node-_43182a57-67bc-6135-b218-f2b2ea9570b8-c2187664" class="mint-content-left">
@@ -115,10 +115,12 @@
                     </div>
                     <div id="w-node-_43182a57-67bc-6135-b218-f2b2ea9570ca-c2187664" class="mint-quantity-box-right">
                         <div class="count-left">
-                            <div class="number-counter" style="font-size: 25px">0</div>
+                            <button class="number-counter" onclick="addFive()" style="font-size: 25px;background: transparent;margin-left: 3px;border:1px solid #fff;border-radius: 3px;margin-bottom: 5px;margin-top: 3px;">05</button>
+                            <button class="number-counter" onclick="addTen()" style="font-size: 25px;background: transparent;margin-left: 3px;border:1px solid #fff;border-radius: 3px;padding-left: 9px;padding-right: 9px;">10</button>
+                            <button class="number-counter" onclick="addTwenty()" style="font-size: 25px;background: transparent;margin-left: 3px;border:1px solid #fff;border-radius: 3px;padding-left: 9px;padding-right: 9px;">15</button>
                         </div>
                         <div class="count-right">
-                            <div class="number-counter" style="font-size: 12px">MATIC</div>
+                            <div class="number-counter" style="font-size: 12px">0 MATIC</div>
                         </div>
                     </div>
                 </div>
@@ -132,7 +134,7 @@
                 </div>
             </div>
         </div>
-        <section class="container-timer">
+        <section class="container-timer" style="display: none;">
             <div>
                 <div class="countdown">
                     <div class="container-day timer-mergin">
@@ -878,7 +880,7 @@
 <script src="assets/js/rocket-loader.min.js"></script>
 
 <!--Web3 JS-->
-<!--<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
 
 <!--JQuery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
