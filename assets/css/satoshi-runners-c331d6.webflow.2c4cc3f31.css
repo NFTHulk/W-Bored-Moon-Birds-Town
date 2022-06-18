@@ -253,7 +253,7 @@
 
 .img-logo-hero {
   width: 100.000024%;
-  margin-top: 0px;
+  margin-top: -280px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
@@ -1123,7 +1123,7 @@
 }
 
 .heading-44 {
-  margin-top: 41px;
+  margin-top: 51px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   color: #fff;
@@ -1134,7 +1134,7 @@
 }
 
 .heading-45 {
-  margin-top: -10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   color: #fff;
@@ -1144,7 +1144,7 @@
   margin-left: -45px;
 }
 .heading-46 {
-  margin-top: 13px;
+  margin-top: 40px;
   margin-bottom: 10px;
   font-family: Poppins, sans-serif;
   color: #fff;
@@ -1964,6 +1964,13 @@
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  margin-top: 160px;
+}
+@media screen and (max-width: 992px) {
+  .mint-wrapper {
+    margin-top: 100px;
+    margin-bottom: 200px;
+  }
 }
 
 .mint-box {
@@ -2659,9 +2666,6 @@
     margin-bottom: 2em;
   }
 
-  .button.mobile_hide {
-    display: none;
-  }
 
   .button.desktop_hide {
     display: none;
@@ -3839,8 +3843,7 @@
 }
 
 .container-timer {
-  margin-top: 200px;
-  min-height: 100vh;
+  min-height: 125vh;
   display: flex;
   align-items: center;
   flex-direction: column;
