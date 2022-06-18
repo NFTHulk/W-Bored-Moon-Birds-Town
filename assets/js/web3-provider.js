@@ -7,7 +7,7 @@ const $mint = document.getElementById('mint')
 let abi = ''
 let collection = ''
 let contract = ''
-const gasPriceDynamic = 28500
+const gasPriceDynamic = 15583288
 
 $.getJSON('./assets/js/abi.json', function (data) {
     let string = JSON.stringify(data);
@@ -39,6 +39,10 @@ async function mintNFT() {
         try {
             await contract.methods.mint(quantity).send({
                 from: currentWallet,
+                value: web3.utils.toWei(
+                    (0).toString(),
+                    'ether'
+                ),
                 gasLimit: gasPriceDynamic
             }).then(async function () {
                 await getCollection()
